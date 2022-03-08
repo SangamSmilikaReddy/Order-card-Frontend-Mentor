@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600&display=swap');
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    background: url(pattern-background-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+.box{
+    border-radius: 20px;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    height: 700px ;
+    width: 450px;
+    margin: 100px auto;
+    max-width: media-50px;
+}
+#para{
+    font-size: 16px;
+    margin: 20px;
+    padding: auto;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+h1{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+#img1{
+    border-radius:  20px 20px 0px 0px;
+}
+.litebox{
+    background-color:hsl(225, 100%, 94%);
+    padding: 10px;
+    margin: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.litebox p{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-right: auto;
+}
+.litebox p span{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    margin-top: 10px;
+}
+.litebox img{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.button{
+    background-color: hsl(245, 75%, 52%);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 40px;
+    color: white;
+    box-shadow: 5px 10px 20px hsl(245, 49%, 64%);
+    font-weight: bold;
+    
+}
+#order{
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 16px;
+}
+button{
+    border: none;
+    align-self: right;
+    text-decoration: underline;
+    background-color: transparent;
+    color:hsl(245, 75%, 52%) ;
+    font-weight: bold;
+    margin-right: 20px;
+}
+button:hover{
+    opacity:0.8;
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+#order:hover{
+    opacity: 0.8;
+}
